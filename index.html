@@ -2,45 +2,55 @@
 <html lang="uk">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<title>Games.com</title>
 </head>
 <body>
 	<header>
-		<nav>
-	    	<a href="index.html" class="menu_top">
+		<a href="index.html" class="menu_top">
     							<h1>Games.com</h1>
     						</a>
-    	
-    		<table>
-    			<tbody>
-    				<tr>
-    					<td>
-    						<a href="index.html" class="menu_top">
-    							<span>Головна</span>
-    						</a>	
-    					</td>
-    					<td>
-    						<a href="" class="menu_top">
-    							<span>Нові ігри</span>
-    						</a>
-    					</td>
-    					<td>
-    						<a href="" class="menu_top">
-    							<span>Топ</span>
-    						</a>
-    					</td>
-    					<td>
-    						<a href="" class="menu_top">
-    							<span>Новини</span>
-    						</a>
-    					</td>
-    				</tr>
-    			</tbody>
-    		</table>
+		<nav class="menu">
+			<div class="toggle">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+    		<ul>
+    			<li>
+    				<a href="index.html" class="menu_top">
+    					<span>Головна</span>
+    				</a>	
+    			</li>
+    			<li>
+    				<a href="" class="menu_top">
+    					<span>Нові ігри</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="" class="menu_top">
+    					<span>Топ</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="" class="menu_top">
+    					<span>Новини</span>
+    				</a>
+    			</li>
+    		</ul>
     	</nav>
+    	<script
+			src="https://code.jquery.com/jquery-3.3.1.js">
+    	</script>
+    	<script type="text/javascript">
+    		$(document).ready(function(){
+    			$('.menu').click(function(){
+    				$('ul').toggle('active');
+    			})
+    		})
+    	</script>
+			
     	<br>
     	<div class="slider">
     		<h2 class="sl_popular">Популярні ігри: </h2>

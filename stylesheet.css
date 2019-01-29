@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Andika&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:700&subset=cyrillic,cyrillic-ext');
+:root {
+   font-family: 'M PLUS Rounded 1c', sans-serif;  
+}
+body {
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    padding: 0;
+    margin: 0;
+}
+header .menu_top h1 {
+    font-family: 'Andika', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 27px auto;
+}
+.menu {
+    width: 100%;
+}
+.menu ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #388929;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 18px 20px;
+}
+.menu ul li:hover {
+    background: #084200
+} 
+.menu ul li a {
+    color: #9BF490;
+    text-decoration: none;
+}
+.toggle {
+    width: 100%;
+    padding: 20px 30px;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    color: #388929;
+    font-size: 30px;
+    display: none;
+}
+@media(max-width: 768px) {
+    .toggle {
+         display: block;    
+    }
+    .menu ul {
+    width: 100%;
+    }
+    .menu ul li {
+        display: block;
+        text-align: center;
+    }
+}
+.active {
+    display: block;
+}
