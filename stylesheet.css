@@ -3,17 +3,34 @@
 :root {
    font-family: 'M PLUS Rounded 1c', sans-serif;  
 }
-body {
-    width: 100%;
-    background-image: url(images/bg.jpg);
+#bg {
+    min-height: 100%;
+    top: 0;
+    height: auto;
+    background: url(images/bg.jpg) 50% 50% / 100% 100% no-repeat fixed;
+    position: relative;
     padding: 0;
     margin: 0;
+}    
+main {
+    max-width: 980px;
+    margin: auto;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+header .menu_top {
+    text-decoration: none;
 }
 header .menu_top h1 {
     font-family: 'Andika', sans-serif;
     font-size: 3rem;
     text-align: center;
-    margin: 27px auto;
+    margin: auto;
+    color: #388929;
+    background-color: #fff;
+    padding: 27px;
 }
 .menu {
     width: 100%;
@@ -35,10 +52,11 @@ header .menu_top h1 {
 .menu ul li a {
     color: #9BF490;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .toggle {
     width: 100%;
-    padding: 20px 30px;
+    padding: 7px 30px;
     background: #fff;
     text-align: right;
     box-sizing: border-box;
