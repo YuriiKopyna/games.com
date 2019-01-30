@@ -27,7 +27,7 @@ header .menu_top h1 {
     font-family: 'Andika', sans-serif;
     font-size: 3rem;
     text-align: center;
-    margin: auto;
+    margin: 0;
     color: #388929;
     background-color: #fff;
     padding: 27px;
@@ -64,6 +64,24 @@ header .menu_top h1 {
     font-size: 30px;
     display: none;
 }
+.slider .sl_popular {
+    
+    padding-bottom: 1px;
+    padding-top: 0px;
+    font-size: 2rem;
+    font-family: 'Andika', sans-serif;
+    color: #388929;
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 768px) {
     .toggle {
          display: block;    
@@ -75,7 +93,191 @@ header .menu_top h1 {
         display: block;
         text-align: center;
     }
+    .left_aside {
+        margin: 0;
+        padding-top: 50px; 
+    }
+    .la_title {
+        background-color: #fff;
+        font-family: 'Andika', sans-serif;
+        font-size: 1.5rem;
+        color: #388929;
+    }
+    .la_categories {
+        display: block;
+        background-color: #fff;
+    }
+    .la_link {
+        margin: auto;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+    }
+    .right_aside {
+        margin-top: 60px;
+    }
+    .ra_title {
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 2rem;
+        color: #fff;
+    }
+    .allEntries{
+        padding: 0;
+        margin: 0;
+    }
+    .imagetext{
+        padding-bottom: 20px;
+        
+        background-color: #fff;
+    }
+    .m-title{
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 1.2rem;
+        color: #388929;
+        display: block;
+        text-decoration: none;
+    }
+    .m-img{
+        margin: 10px;
+        padding: 0;
+        width: auto;
+        height: 200px;
+        display: block;
+        float: left;
+    }
+    .m-desc{
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+        height: 300px;
+    }
+    .m-desc1{
+        margin: 10px;
+        padding: 0;
+    }
+    .m-desc1 button{
+        display: flex;
+    }
+    .m-desc1 .mata{
+        
+        text-decoration: none;
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    .button-more{
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+        text-align: center;
+    }
+    
+    
+    #news{
+        margin-top: 60px;
+    }
+    form{
+        margin: 10px;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+    }
+    form h2{
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 1.5rem;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    .form{
+        display: block;
+        justify-content: center;
+    }
+    form #name{
+        background-color: #8CE390;
+        margin: 10px;
+    }
+    form #email{
+        background-color: #8CE390;
+        margin: 10px;
+    }
+    form #text{
+        margin: 10px;
+    }
+    form .send{
+        display: flex;
+        justify-content: center;
+    }
+    form .send-button{
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        height: 350px;
+        background-color: #fff;
+    }
+    footer .menu_top h1{
+    font-family: 'Andika', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    margin: 0;
+    color: #388929;
+    background-color: #fff;
+    padding: 0;
+    text-decoration: none;
+    }
+    footer p{
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 1.2rem;
+        color: #388929;
+        display: block;
+        text-decoration: none;
+    }
+    footer h2{
+        margin: 10px;
+        font-family: 'Andika', sans-serif;
+        font-size: 1.5rem;
+        color: #388929;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    .socials{
+        padding: 0;
+        margin: 0;
+    }
+    .socials-ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .soc-img{
+        padding: 0;
+        margin: 0;
+        width: 100px;
+    }
 }
+
+
+
 .active {
     display: block;
 }
