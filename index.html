@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<title>Games.com</title>
 </head>
 <body id="bg">
@@ -41,16 +42,8 @@
     			</li>
     		</ul>
     	</nav>
-    	<script
-			src="https://code.jquery.com/jquery-3.3.1.js">
-    	</script>
-    	<script>
-    		$(document).ready(function(){
-    			$('.menu').click(function(){
-    				$('ul').toggle('active');
-    			})
-    		})
-    	</script>
+    	
+    	
 			
     	<br>
 <!--    	<div class="slider">
@@ -312,20 +305,20 @@
 		<h2>Підписуйтесь на нас</h2>
 		<div class="socials">
 			<ul class="socials-ul">
-				<li class="socials-ul-fb">
+				<li class="socials-ul-li">
 					<a class="fb-link" href="https://www.facebook.com/">
 						<img class="soc-img" alt="fb" src="images/fb.png"></a>
 				</li>
-				<li class="socials-ul-yt">
+				<li class="socials-ul-li">
 					<a class="yt-link" href="https://www.youtube.com/">
 						<img class="soc-img" alt="yt" src="images/yt.jpg"></a>
 				</li>
-				<li class="socials-ul-tg">
+				<li class="socials-ul-li">
 					<a class="tg-link" href="https://web.telegram.org/#/im">
 						<img class="soc-img" alt="tg" src="images/tg.jpg"></a>
 						
 				</li>
-				<li class="socials-ul-ig">
+				<li class="socials-ul-li">
 					<a class="ig-link" href="https://www.instagram.com/?hl=ru">
 						<img class="soc-img" alt="ig" src="images/ig.jpg"></a>
 						
@@ -335,6 +328,14 @@
 		</div>
 	</footer>
 	</main>
+	
+	<script>
+    		$(document).ready(function(){
+    			$('.menu').click(function(){
+    				$('ul').toggle('active');
+    			})
+    		})
+    	</script>
 </body>
 </html>
 
