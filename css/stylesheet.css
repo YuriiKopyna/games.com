@@ -348,6 +348,7 @@ footer h2{
     background-color: #fff;
     padding: 27px;
     text-decoration: none;
+    }
 }
 @media(max-width: 768px) {    
     .left_aside {
@@ -411,7 +412,7 @@ footer h2{
         text-decoration: none;
     }
     .m-img{
-        margin: 10px;
+        margin: 0;
         padding: 0;
         width: 100%;
         display: block;

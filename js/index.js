@@ -1,0 +1,1 @@
+const contentList = new ContentList('content.json', $('.allEntries'));
