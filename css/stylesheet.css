@@ -314,17 +314,6 @@ footer h2{
     margin: 0;
     width: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 768px) {
     .toggle {
          display: block;    
@@ -557,9 +546,6 @@ footer h2{
         width: 100px;
     }
 }
-
-
-
 .active {
     display: block;
 }
