@@ -238,7 +238,13 @@ header {
             justify-content: center;
     padding: 20px;
 }
-.button-more{
+.button-more-content{
+    font-family: 'Andika', sans-serif;
+    font-size: 1rem;
+    color: #388929;
+    text-align: center;
+}
+.button-more-news{
     font-family: 'Andika', sans-serif;
     font-size: 1rem;
     color: #388929;
@@ -494,7 +500,13 @@ footer h2{
             -ms-flex-pack: center;
                 justify-content: center;
     }
-    .button-more{
+    .button-more-content{
+        font-family: 'Andika', sans-serif;
+        font-size: 1rem;
+        color: #388929;
+        text-align: center;
+    }
+    .button-more-news{
         font-family: 'Andika', sans-serif;
         font-size: 1rem;
         color: #388929;
