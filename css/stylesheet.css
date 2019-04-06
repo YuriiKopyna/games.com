@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Andika&subset=cyrillic,cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:700&subset=cyrillic,cyrillic-ext');
 :root {
-   font-family: 'M PLUS Rounded 1c', sans-serif;  
+   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 #bg {
     min-height: 100%;
     top: 0;
     height: auto;
-    background: url(../images/bg.webp) 50% 50% / 100% 100% no-repeat fixed;
+    background: url(../images/bg.jpg) 50% 50% / 100% 100% no-repeat fixed;
     position: relative;
     padding: 0;
     margin: 0;
@@ -41,19 +41,28 @@ header {
     margin: 0;
     padding: 0;
     background-color: #388929;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .menu ul li {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
     margin: auto;
     width: 100%;
     height: 50px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .menu ul li:hover {
     background: #084200
@@ -64,17 +73,24 @@ header {
     text-transform: uppercase;
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .toggle {
     width: 100%;
     padding: 7px 30px;
     background: #fff;
     text-align: right;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #388929;
     font-size: 30px;
     display: none;
@@ -89,14 +105,20 @@ header {
 }
 .left_aside {
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0;
     padding-top: 50px; 
 
 }
 .la_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #fff;
     font-family: 'Andika', sans-serif;
     font-size: 1.5rem;
@@ -111,6 +133,8 @@ header {
     font-family: 'Andika', sans-serif;
     font-size: 1.5rem;
     color: #388929;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
 }
@@ -134,7 +158,8 @@ header {
 }
 .right_aside {
     margin-top: 60px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .ra_title {
     margin: 10px;
@@ -145,19 +170,28 @@ header {
 .allEntries{
     padding: 0;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .game {
     padding: 10px;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 45%;
 }  
 .imagetext {
     padding-bottom: 20px;
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .link-td-none{
@@ -185,6 +219,8 @@ header {
     padding: 0;
 }
 .m-desc1 button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .m-desc1 .mata {
@@ -194,8 +230,12 @@ header {
     color: #388929;
 }
 .button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 20px;
 }
 .button-more{
@@ -208,7 +248,9 @@ form{
     margin: 10px;
     padding: 10px;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 form h2{
     margin: 10px;
@@ -225,7 +267,9 @@ form #name{
     padding: 10px;
     width: 400px;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 form #email{
     background-color: #8CE390;
@@ -233,7 +277,9 @@ form #email{
     padding: 10px;
     width: 400px;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 form #text{
     margin: auto;
@@ -241,12 +287,16 @@ form #text{
     width: 400px;
     height: 150px;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 form .send{
     margin: auto;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 10px;
 }
 form .send-button{
@@ -256,7 +306,9 @@ form .send-button{
     color: #388929;
     text-align: center;
     display: block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 footer{
     width: 100%;
@@ -302,8 +354,12 @@ footer h2{
 .socials-ul{
     padding: 0;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .socials-ul-li{
     list-style: none;
@@ -389,6 +445,8 @@ footer h2{
     .imagetext{
         padding-bottom: 20px;
         background-color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
     }
@@ -417,6 +475,8 @@ footer h2{
         padding: 0;
     }
     .m-desc1 button{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .m-desc1 .mata{
@@ -427,8 +487,12 @@ footer h2{
         color: #388929;
     }
     .button{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .button-more{
         font-family: 'Andika', sans-serif;
@@ -445,7 +509,9 @@ footer h2{
         margin: 10px;
         padding: 10px;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     form h2{
         margin: 10px;
@@ -461,25 +527,33 @@ footer h2{
         margin: auto;
         padding: 10px;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     form #email{
         background-color: #8CE390;
         margin: auto;
         padding: 10px;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     form #text{
         margin: auto;
         padding: 10px;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     form .send{
         margin: auto;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding: 10px;
     }
     form .send-button{
@@ -489,7 +563,9 @@ footer h2{
         color: #388929;
         text-align: center;
         display: block;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 @media(max-width: 768px) { 
@@ -533,8 +609,12 @@ footer h2{
     .socials-ul{
         padding: 0;
         margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .socials-ul-li{
         list-style: none;
