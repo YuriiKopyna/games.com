@@ -523,30 +523,33 @@ footer h2{
         text-align: center;
     }
     form #name{
+        width: -webkit-fill-available;
         background-color: #8CE390;
         margin: auto;
         padding: 10px;
         display: block;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
     form #email{
+        width: -webkit-fill-available;
         background-color: #8CE390;
         margin: auto;
         padding: 10px;
         display: block;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
     form #text{
+        width: -webkit-fill-available;
         margin: auto;
         padding: 10px;
         display: block;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
     form .send{
         margin: auto;
@@ -577,7 +580,7 @@ footer h2{
     footer .menu_top h1{
     font-family: 'Andika', sans-serif;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     margin: 0;
     color: #388929;
     background-color: #fff;
@@ -602,6 +605,7 @@ footer h2{
         text-align: center;
     }
     .socials ul li{
+        display: flex;
         padding: 0;
         margin: 0;
         list-style: none;
@@ -613,17 +617,18 @@ footer h2{
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
     }
     .socials-ul-li{
         list-style: none;
         text-decoration: none;
     }
     .soc-img{
+        display: block;
         padding: 0;
-        margin: 0;
-        width: 100px;
+        margin: auto;
+        width: 70%;
     }
 }
 .active {
